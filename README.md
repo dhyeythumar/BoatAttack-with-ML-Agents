@@ -9,10 +9,10 @@ This repo contains the implementation of ML-Agents on the <a href="https://githu
 
 ## Build versions
 
-The various build versions are stored on different branches of [Boat Attack with ML-Agents build versions](https://github.com/Dhyeythumar/Boat-Attack-with-ML-Agents-build-versions/) repo, and the following list contains all the information related to this:
+The various build versions are stored on different branches of [Boat Attack with ML-Agents build versions](https://github.com/Dhyeythumar/BoatAttack-with-ML-Agents-build-versions) repo, and the following list contains all the information related to this:
 
--   [main](https://github.com/Dhyeythumar/Boat-Attack-with-ML-Agents-build-versions/tree/main): Windows Build - version 1.0
--   [BoatAttack_Linux-1.0](https://github.com/Dhyeythumar/Boat-Attack-with-ML-Agents-build-versions/tree/BoatAttack_Linux-1.0): Linux Build - version 1.0
+-   [main](https://github.com/Dhyeythumar/BoatAttack-with-ML-Agents-build-versions/tree/main): Windows Build - version 1.0
+-   [BoatAttack_Linux-1.0](https://github.com/Dhyeythumar/BoatAttack-with-ML-Agents-build-versions/tree/BoatAttack_Linux-1.0): Linux Build - version 1.0
 
 ## License
 
