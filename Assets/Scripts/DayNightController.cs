@@ -10,7 +10,7 @@ public class DayNightController : MonoBehaviour
 {
     private static DayNightController _instance;
     [Range(0, 1)]
-    public float time = 0.5f; // the global 'time'
+    public float time = 0.54f; // the global 'time'
 
     private readonly float[] _presets = { 0.27f, 0.35f, 0.45f, 0.55f, 0.65f, 0.73f };
     private int _currentPreset;
