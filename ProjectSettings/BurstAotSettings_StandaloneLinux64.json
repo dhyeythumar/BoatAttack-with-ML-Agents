@@ -3,13 +3,13 @@
     "Version": 3,
     "EnableBurstCompilation": true,
     "EnableOptimisations": true,
-    "EnableSafetyChecks": false,
-    "EnableDebugInAllBuilds": false,
+    "EnableSafetyChecks": true,
+    "EnableDebugInAllBuilds": true,
     "UsePlatformSDKLinker": false,
     "CpuMinTargetX32": 0,
     "CpuMaxTargetX32": 0,
     "CpuMinTargetX64": 0,
     "CpuMaxTargetX64": 0,
-    "CpuTargetsX64": 72
+    "CpuTargetsX64": 88
   }
 }

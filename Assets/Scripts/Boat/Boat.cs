@@ -11,7 +11,7 @@ namespace BoatAttack
     public class Boat : MonoBehaviour
     {
         public Engine engine;
-        public Transform initialPos;
+        // public Transform initialPos;
 
         void Start()
         {
@@ -25,11 +25,11 @@ namespace BoatAttack
 
         public void resetPosition()
         {
-            this.transform.forward = initialPos.forward;
-            this.transform.right = initialPos.right;
-            this.transform.rotation = initialPos.rotation;
-            engine.RB.position = initialPos.position;
-            engine.RB.rotation = initialPos.rotation;
+            // this.transform.forward = initialPos.forward;
+            // this.transform.right = initialPos.right;
+            // this.transform.rotation = initialPos.rotation;
+            // engine.RB.position = initialPos.position;
+            // engine.RB.rotation = initialPos.rotation;
             engine.RB.velocity = Vector3.zero;
             engine.RB.angularVelocity = Vector3.zero;
         }

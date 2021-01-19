@@ -7,12 +7,14 @@ namespace BoatAttack
     /// </summary>
     public class HumanController : MonoBehaviour
     {
-        public Boat BoatController; // the boat controller
+        private Boat BoatController; // the boat controller
 
         private float _throttle;
         private float _steering;
         
-        void Start() {}
+        void Start() {
+        	BoatController = this.GetComponent<Boat>();
+        }
 
         void GetKeyboardInputs()
         {
