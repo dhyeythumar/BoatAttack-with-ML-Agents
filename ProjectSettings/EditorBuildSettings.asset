@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Island-1.0.unity
     guid: b3bf1324da98a41e796a5881dd3812eb
+  - enabled: 0
+    path: Assets/Scenes/cameras.unity
+    guid: 29d97689f53909944ba0eb039b15a9a9
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 3f119a19757f84dac85ee298b9dd65d3,
       type: 2}

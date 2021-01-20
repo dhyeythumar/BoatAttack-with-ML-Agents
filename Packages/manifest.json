@@ -2,6 +2,7 @@
   "dependencies": {
     "com.unity.burst": "1.4.3",
     "com.unity.cinemachine": "2.6.3",
+    "com.unity.jobs": "0.7.0-preview.17",
     "com.unity.mathematics": "1.2.1",
     "com.unity.ml-agents": "1.0.0-preview",
     "com.unity.render-pipelines.universal": "10.2.2",

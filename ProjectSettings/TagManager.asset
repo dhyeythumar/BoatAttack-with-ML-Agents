@@ -4,11 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - ground
-  - volume_manager
   - Checkpoint
   - Boundary
   - Boat
+  - Ground
+  - ground
   layers:
   - Default
   - TransparentFX
@@ -21,7 +21,7 @@ TagManager:
   - Checkpoint
   - Boat
   - Boundary
-  - 
+  - Ground
   - 
   - 
   - 

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6331828920173615249}
   - component: {fileID: 6098140300401974047}
   - component: {fileID: 1541173659418636714}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Terrain-1-0
-  m_TagString: ground
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -85,9 +85,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5753826262829751716}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: TerrainGroup
-  m_TagString: ground
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -119,9 +119,9 @@ GameObject:
   - component: {fileID: 7898293318469932019}
   - component: {fileID: 5803251048275177946}
   - component: {fileID: 6176333237588151637}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Terrain-0-0
-  m_TagString: ground
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295

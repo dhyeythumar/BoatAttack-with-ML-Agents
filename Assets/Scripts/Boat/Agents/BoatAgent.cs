@@ -79,7 +79,7 @@ public class BoatAgent : Agent
     private void OnCollisionEnter(Collision collision)
     {
         #if UNITY_EDITOR
-            if(!(collision.gameObject.CompareTag("Boundary") || collision.gameObject.CompareTag("ground"))) {
+            if(!(collision.gameObject.CompareTag("Boundary") || collision.gameObject.CompareTag("Ground"))) {
                 Debug.Log(collision.gameObject.name + " " + collision.gameObject.tag);
             }
         #endif

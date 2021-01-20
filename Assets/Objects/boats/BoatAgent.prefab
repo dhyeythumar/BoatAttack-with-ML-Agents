@@ -5153,7 +5153,7 @@ GameObject:
   - component: {fileID: 844756443093912637}
   - component: {fileID: 844756443093912638}
   m_Layer: 9
-  m_Name: Boat
+  m_Name: BoatAgent
   m_TagString: Boat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5285,14 +5285,14 @@ MonoBehaviour:
   m_SensorName: FrontalCone
   m_DetectableTags:
   - Boundary
-  - ground
+  - Ground
   m_RaysPerDirection: 3
   m_MaxRayDegrees: 90
   m_SphereCastRadius: 0.4
   m_RayLength: 24
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 1608
+    m_Bits: 1601
   m_ObservationStacks: 3
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
@@ -15264,7 +15264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7598133777834091105}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -1.13}
+  m_LocalPosition: {x: -0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 841246610677556219}
@@ -15285,14 +15285,14 @@ MonoBehaviour:
   m_SensorName: BackwardCone
   m_DetectableTags:
   - Boundary
-  - ground
+  - Ground
   m_RaysPerDirection: 3
   m_MaxRayDegrees: 90
   m_SphereCastRadius: 0.4
   m_RayLength: 24
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 1608
+    m_Bits: 1601
   m_ObservationStacks: 3
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
