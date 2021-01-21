@@ -5267,7 +5267,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 10000
+  MaxStep: 5000
   engine: {fileID: 3462911868254364920}
   initialPos: {fileID: 0}
 --- !u!114 &844756443093912637

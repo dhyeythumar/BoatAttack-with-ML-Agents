@@ -95,7 +95,7 @@ public class BoatAgent : Agent
     	else {
     		Match match = Regex.Match(checkpointName, @"\d+");
 			if (match.Success)
-    			AddReward(int.Parse(match.Value) * (1 / MaxStep));
+    			AddReward(int.Parse(match.Value) * (1 / (MaxStep * 10)));
     	}
     }
 }
