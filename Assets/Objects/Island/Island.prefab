@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 524d7680c571e86478322b7cf2db824c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 0.45
+  time: 0.54
   autoIcrement: 0
   speed: 0
   _skybox: {fileID: 2100000, guid: e14f29569c2db49fdb0a5fd5b3e95b86, type: 2}
@@ -102,7 +102,8 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  reflections: []
+  reflections:
+  - {fileID: 652498436271006677}
   _sun: {fileID: 3459900641662587676}
   _sunColour:
     serializedVersion: 2
@@ -705,6 +706,12 @@ PrefabInstance:
 --- !u!4 &652498436065518719 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4503953258026586773, guid: feec7a24c99693e4185087c41df4c49d,
+    type: 3}
+  m_PrefabInstance: {fileID: 4003526890677450474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!215 &652498436271006677 stripped
+ReflectionProbe:
+  m_CorrespondingSourceObject: {fileID: 4503953258634794303, guid: feec7a24c99693e4185087c41df4c49d,
     type: 3}
   m_PrefabInstance: {fileID: 4003526890677450474}
   m_PrefabAsset: {fileID: 0}
