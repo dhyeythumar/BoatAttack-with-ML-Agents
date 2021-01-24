@@ -68,12 +68,10 @@ public class BoatAgent : Agent
 
     private void _resetBoatPosition()
     {
-        // this.transform.forward = initialPos.forward;
-        // this.transform.right = initialPos.right;
-        engine.RB.position = initialPos.position;
-        engine.RB.rotation = initialPos.rotation;
         engine.RB.velocity = Vector3.zero;
         engine.RB.angularVelocity = Vector3.zero;
+        engine.RB.position = initialPos.position;
+        engine.RB.rotation = initialPos.rotation;
     }
 
     private void OnCollisionEnter(Collision collision)

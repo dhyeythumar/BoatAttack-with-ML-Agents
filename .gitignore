@@ -11,6 +11,7 @@
 /[Mm]emoryCaptures/
 /[Uu]serSettings/
 /[Aa]ssets/ML-Agents/
+/[Aa]ssets/TFModels/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 /[Aa]ssets/**/*.meta
