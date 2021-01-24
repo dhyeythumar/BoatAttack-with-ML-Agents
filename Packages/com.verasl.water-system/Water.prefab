@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6322796175194364802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 181061643673884877}
+  - component: {fileID: 4743588680212869329}
+  m_Layer: 4
+  m_Name: Water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 64
+  m_IsActive: 1
+--- !u!4 &181061643673884877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6322796175194364802}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4743588680212869329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6322796175194364802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6edb8448c9b94f018953ca2a6fa5891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  computeOverride: 1
+  _depthTex: {fileID: 0}
+  bakedDepthTex: {fileID: 0}
+  _waves:
+  - amplitude: 0.05798198
+    direction: -147.25302
+    wavelength: 2.7246423
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.06217406
+    direction: -257.97464
+    wavelength: 5.7296567
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.07714856
+    direction: -240.42145
+    wavelength: 3.9960158
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.07552099
+    direction: -117.54523
+    wavelength: 9.703172
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.10969982
+    direction: -112.170456
+    wavelength: 8.36434
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.12754746
+    direction: -152.80656
+    wavelength: 8.5557575
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.12106864
+    direction: -196.76053
+    wavelength: 8.249719
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  - amplitude: 0.13776742
+    direction: -100.42102
+    wavelength: 15.327503
+    origin:
+      x: 0
+      y: 0
+    onmiDir: 0
+  settingsData: {fileID: 11400000, guid: 51d5286b580b54b69a91da9e3338548f, type: 2}
+  surfaceData: {fileID: 11400000, guid: 9e1c83d2d3fac4b94b91c7b3a80ce964, type: 2}
+  resources: {fileID: 11400000, guid: 40615c805d6e84ce7800418367985fe1, type: 2}
