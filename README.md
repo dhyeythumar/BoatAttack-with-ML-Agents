@@ -12,7 +12,8 @@ This repo contains the implementation of ML-Agents on the <a href="https://githu
 The various build versions are stored on different branches of [Boat Attack with ML-Agents build versions](https://github.com/Dhyeythumar/BoatAttack-with-ML-Agents-build-versions) repo, and the following list contains all the information related to this:
 
 -   [main](https://github.com/Dhyeythumar/BoatAttack-with-ML-Agents-build-versions/tree/main): Windows Build - version 1.0
--   [BoatAttack_Linux-1.0](https://github.com/Dhyeythumar/BoatAttack-with-ML-Agents-build-versions/tree/BoatAttack_Linux-1.0): Linux Build - version 1.0
+-   [Linux/BoatAttack-1.0](https://github.com/Dhyeythumar/BoatAttack-with-ML-Agents-build-versions/tree/Linux/BoatAttack-1.0): Linux Build - version 1.0
+-   [Linux/ServerBuild/BoatAttack-1.0](https://github.com/Dhyeythumar/BoatAttack-with-ML-Agents-build-versions/tree/Linux/ServerBuild/BoatAttack-1.0): Linux Server/Headless Build - version 1.0
 
 ## YouTube Videos
 
@@ -29,7 +30,7 @@ The various build versions are stored on different branches of [Boat Attack with
             </td>
         </tr>
     </table>
-Check out the above youtube video on "<ins>Navigation strategies learned by an ML-Agent</ins>" on a custom environment made with Unity Engine.
+Check out the above youtube video on "Navigation strategies learned by an ML-Agent" on a custom environment made with Unity Engine.
 </p>
 
 ## License
