@@ -4,6 +4,9 @@
 This repo contains the implementation of ML-Agents on the <a href="https://github.com/Unity-Technologies/BoatAttack">Boat Attack</a> environment by Unity Technology.
 </h4>
 
+> **⚠ Warning:** <br />
+> This repo contains LFS tracked files. So contact me if you are facing any issues while cloning, forking, or downloading this repository because it's probably that I have exhausted GitHub's LFS quota. (Issues like not able to fetch all the files or some of the files that look missing)
+>
 > **Note:** <br />
 > This repo contains many changes in the boat attack environment. So if you are looking for the original version of the boat attack then, head over to the Unity Technologies' [Boat Attack](https://github.com/Unity-Technologies/BoatAttack).
 
