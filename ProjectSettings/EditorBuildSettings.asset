@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Water.unity
     guid: 3ec7517bb458ebc449f7ad88104046da
   - enabled: 1
-    path: Assets/Scenes/Island-1.0.unity
+    path: Assets/Scenes/Island-2.0.unity
     guid: b3bf1324da98a41e796a5881dd3812eb
   - enabled: 0
     path: Assets/Scenes/cameras.unity
