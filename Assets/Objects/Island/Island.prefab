@@ -601,41 +601,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6589000189934312487}
     m_Modifications:
-    - target: {fileID: 543646049902552566, guid: feec7a24c99693e4185087c41df4c49d,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.7294118
-      objectReference: {fileID: 0}
-    - target: {fileID: 543646049902552566, guid: feec7a24c99693e4185087c41df4c49d,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.8901961
-      objectReference: {fileID: 0}
-    - target: {fileID: 543646049902552566, guid: feec7a24c99693e4185087c41df4c49d,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.972549
-      objectReference: {fileID: 0}
-    - target: {fileID: 1536137165001182760, guid: feec7a24c99693e4185087c41df4c49d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.30306304
-      objectReference: {fileID: 0}
-    - target: {fileID: 1536137165001182760, guid: feec7a24c99693e4185087c41df4c49d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.22018817
-      objectReference: {fileID: 0}
-    - target: {fileID: 1536137165001182760, guid: feec7a24c99693e4185087c41df4c49d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7501075
-      objectReference: {fileID: 0}
-    - target: {fileID: 1536137165001182760, guid: feec7a24c99693e4185087c41df4c49d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.544985
-      objectReference: {fileID: 0}
     - target: {fileID: 4503953258026586762, guid: feec7a24c99693e4185087c41df4c49d,
         type: 3}
       propertyPath: m_Name
