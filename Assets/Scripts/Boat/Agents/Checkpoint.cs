@@ -18,8 +18,15 @@ public class Checkpoint : MonoBehaviour
     /// </summary>
  	void OnTriggerEnter(Collider collidingObject)
     {
-    	if((BoatLayers.value & ( 1 << collidingObject.gameObject.layer)) > 0) {
-    		collidingObject.gameObject.GetComponent<BoatAgent>().addCheckpointReward(this.gameObject.name);
+    	if((BoatLayers.value & (1 << collidingObject.gameObject.layer)) > 0) {
+
+            // TODO :: use the better way to call scripts dynamically !
+            try {
+                collidingObject.gameObject.GetComponent<BoatAgent>().addCheckpointReward(this.gameObject.name);
+            }
+            catch {
+                collidingObject.gameObject.GetComponent<BoatAgents>().addCheckpointReward(this.gameObject.name);
+            }
     	}
     }
 }

@@ -2,7 +2,7 @@ using Unity.MLAgents;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DisplayGlobalStats : MonoBehaviour
+public class DisplayStats : MonoBehaviour
 {
     public BoatAgent _boatAgent;
 
