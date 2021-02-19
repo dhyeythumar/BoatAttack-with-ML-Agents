@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using BoatAttack;
 using System.Text.RegularExpressions;
+using Cinemachine;
 using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
 using Unity.MLAgents.Policies;
@@ -19,6 +20,8 @@ public class BoatAgents : Agent
 	public Engine engine;
     public Transform initialPos; // initial pos of the boat
     public TeamManager teamManager;
+    public CinemachineVirtualCamera agentVirtualCam;
+    private int m_AgentIndex;
 
     [NonSerialized] public float speed = 0.0f;
     private Vector3 lastPosition;
@@ -31,19 +34,22 @@ public class BoatAgents : Agent
     public override void Initialize() {
 
         m_BehaviorParameters = gameObject.GetComponent<BehaviorParameters>();
-        if (m_BehaviorParameters.TeamId == (int)Team.Blue) {
-            team = Team.Blue;
-        }
-        else {
+        if (m_BehaviorParameters.TeamId == (int)Team.Red) {
             team = Team.Red;
         }
+        else {
+            team = Team.Blue;
+        }
 
+        agentVirtualCam.enabled = false;
         // Register the agent to the Team Manager's activeAgents list.
-        var activeAgent = new ActiveAgents
-        {
+        var activeAgent = new ActiveAgents {
             agentScript = this,
+            agentCam = agentVirtualCam,
+            checkpoint = 0
         };
         teamManager.activeAgents.Add(activeAgent);
+        m_AgentIndex = teamManager.activeAgents.IndexOf(activeAgent);
 
     	TryGetComponent(out engine.RB);
         lastPosition = this.transform.position;
@@ -105,7 +111,7 @@ public class BoatAgents : Agent
     private void OnCollisionEnter(Collision collision)
     {
         #if UNITY_EDITOR
-            if(!(collision.gameObject.CompareTag("Boundary") || collision.gameObject.CompareTag("Ground"))) {
+            if(!(collision.gameObject.CompareTag("Boundary") || collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Boat"))) {
                 Debug.Log(collision.gameObject.name + " " + collision.gameObject.tag);
             }
         #endif
@@ -119,8 +125,10 @@ public class BoatAgents : Agent
     	}
     	else {
     		Match match = Regex.Match(checkpointName, @"\d+");
-			if (match.Success)
-    			AddReward(int.Parse(match.Value) * (1 / (MaxStep * 10)));
+			if (match.Success) {
+                teamManager.activeAgents[m_AgentIndex].checkpoint = int.Parse(match.Value);
+    			AddReward(int.Parse(match.Value) * (1 / 100000));
+            }
     	}
     }
 }

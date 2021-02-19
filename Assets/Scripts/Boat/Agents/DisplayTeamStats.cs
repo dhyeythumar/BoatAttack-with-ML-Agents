@@ -25,11 +25,11 @@ public class DisplayTeamStats : MonoBehaviour
                 GUI.Label(new Rect(0, 75, 250, 25), "| Total Steps: " + m_totalStepCount, guiStyle);
                 GUI.Label(new Rect(0, 100, 250, 25), "-------------------------------------", guiStyle);
             GUI.EndGroup();
-            GUI.BeginGroup(new Rect(x:20, y:150, width:300, height:75), "Team 0 Stats", guiStyle);
+            GUI.BeginGroup(new Rect(x:20, y:150, width:300, height:75), "Team 0 Stats (Red Agent)", guiStyle);
                 GUI.Label(new Rect(0, 25, 250, 25), "| Speed: " + RedAgent.speed, guiStyle);
                 GUI.Label(new Rect(0, 50, 250, 25), "| Reward: " + RedAgent.GetCumulativeReward().ToString("0.##"), guiStyle);
             GUI.EndGroup();
-            GUI.BeginGroup(new Rect(x:20, y:250, width:300, height:75), "Team 1 Stats", guiStyle);
+            GUI.BeginGroup(new Rect(x:20, y:250, width:300, height:75), "Team 1 Stats (Blue Agent)", guiStyle);
                 GUI.Label(new Rect(0, 25, 250, 25), "| Speed: " + BlueAgent.speed, guiStyle);
                 GUI.Label(new Rect(0, 50, 250, 25), "| Reward: " + BlueAgent.GetCumulativeReward().ToString("0.##"), guiStyle);
             GUI.EndGroup();
